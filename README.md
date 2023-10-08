@@ -17,3 +17,4 @@ or Run by docker compose
 
 test
 
+docker-compose up -d --no-deps --build web 
