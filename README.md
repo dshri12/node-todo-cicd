@@ -13,14 +13,11 @@ Run these commands:
 
 `node app.js`
 
-or Run by docker compose
+# we will be adding some commands here for the docker
 
-test
-
-'docker-compose up -d --no-deps --build web' 
-
-docker images
-
+docker ps
 docker ps -a
-docker networks
+docker images
+docker networks ls
+
 
