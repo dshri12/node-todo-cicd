@@ -19,5 +19,5 @@ docker ps
 docker ps -a
 docker images
 docker networks ls
-
-
+docker inspect container id
+docker describe container name 
