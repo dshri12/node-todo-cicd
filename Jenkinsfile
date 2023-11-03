@@ -27,7 +27,7 @@ pipeline{
         }
         stage("Deployed The Code"){
             steps{
-                echo "aur finally we have deployed the code aur hum jeet gaye!"
+                echo "Aur finally we have deployed the code aur hum jeet gaye!"
                 sh "docker-compose down && docker-compose up -d"
             }
         }
