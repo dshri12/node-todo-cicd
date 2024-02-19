@@ -2,6 +2,6 @@ version: '3.9'
 
 services:
   web:
-    image: "dshri12/node-app-demo:latest"
+    image: "vikash1997/node-js-app:latest"
     ports:
       - "8000:8000"
